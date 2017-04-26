@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 group :production do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'pg'
+  gem 'factory_girl_rails'
 end
 
 group :development, :test do
